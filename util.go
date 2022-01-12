@@ -1,6 +1,8 @@
 package lex
 
-import "net"
+import (
+	"net"
+)
 
 func GetLocalIPs() []string {
 	addrs, err := net.InterfaceAddrs()
